@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from torchvision.transforms import Lambda
 
-""" NNVC official SW - NN-based post-filter by Qualcomm (in-loop filter) [JVET-W0131] & Nokia (Content-adaptive post-filter) [JVET-AC0055] """
+""" NNVC 2.0 official SW - NN-based post-filter by Nokia (Content-adaptive post-filter) [JVET-AC0055] """
 
 class Multiplier(nn.Module):
     def __init__(self):
