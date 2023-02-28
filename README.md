@@ -8,5 +8,5 @@ NNVC 2.0 official NN-based post filtering software PyTorch implementation
 
 
 ## Dataset
-*BVI-DVC
-*Tencent_Video_Dataset
+* BVI-DVC
+* Tencent_Video_Dataset
