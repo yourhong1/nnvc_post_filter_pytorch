@@ -81,7 +81,5 @@ class OfficialNet(nn.Module):
         
         x = self._reshape1(x)
         out = self._reshape2(out)
-        print(x.shape)
-        print(out.shape)
         
         return out + x
